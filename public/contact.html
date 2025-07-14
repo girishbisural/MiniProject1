@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact CodeCraft</title>
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/images/banner.jpg" alt="Banner" />
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="api-demo.html">API Demo</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <form action="" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="firstname">First Name*</label>
+          <input id="firstname" name="first-name" type="text" maxlength="25" required />
+          <br />
+          <label for="lastname">Last Name*</label>
+          <input id="lastname" name="last-name" type="text" maxlength="25" required />
+          <br />
+          <label for="email">Email*</label>
+          <input id="email" name="email" type="email" maxlength="50" required />
+          <br />
+          <label>Please select preferred tech areas:</label><br />
+          <input type="checkbox" name="tech" value="web" id="web" />
+          <label for="web">Web Development</label><br />
+          <input type="checkbox" name="tech" value="mobile" id="mobile" />
+          <label for="mobile">Mobile Apps</label><br />
+          <input type="checkbox" name="tech" value="cloud" id="cloud" />
+          <label for="cloud">Cloud Solutions</label><br />
+          <input type="checkbox" name="tech" value="ai" id="ai" />
+          <label for="ai">AI & Machine Learning</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your Message</legend>
+          <label for="source">How did you hear about us?</label>
+          <select id="source" name="source">
+            <option value="web">Website</option>
+            <option value="friend">Friend</option>
+            <option value="ad">Advertisement</option>
+            <option value="other">Other</option>
+          </select>
+          <br />
+          <label>Would you recommend CodeCraft?</label><br />
+          <input type="radio" name="recommend" checked value="yes" /> Yes
+          <input type="radio" name="recommend" value="no" /> No
+          <input type="radio" name="recommend" value="maybe" /> Maybe
+          <br /><br />
+          <label for="message">Your message:</label><br />
+          <textarea id="message" name="message" cols="40" rows="5"></textarea>
+          <br />
+          <input type="checkbox" name="newsletter" checked value="subscribe" />
+          Sign me up for email updates
+          <div class="submit">
+            <input type="submit" value="Send Message" />
+          </div>
+        </fieldset>
+      </form>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2335148582787!2d-122.40000108468054!3d37.78583477975609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064c7f316d1%3A0xf5229f899d31ff1d!2sSalesforce+Tower!5e0!3m2!1sen!2sus!4v1689189859041!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 CodeCraft Inc. - All rights reserved</p>
+    </footer>
+  </div>
+</body>
+</html>

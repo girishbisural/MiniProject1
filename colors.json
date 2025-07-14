@@ -1,0 +1,58 @@
+[
+  {
+    "color": "primary",
+    "value": "#007acc"
+  },
+  {
+    "color": "primary-dark",
+    "value": "#005fa3"
+  },
+  {
+    "color": "accent",
+    "value": "#ffa500"
+  },
+  {
+    "color": "text",
+    "value": "#444444"
+  },
+  {
+    "color": "background",
+    "value": "#f7f9fa"
+  },
+  {
+    "color": "container-background",
+    "value": "#ffffff"
+  },
+  {
+    "color": "form-background",
+    "value": "#f0f7ff"
+  },
+  {
+    "color": "border",
+    "value": "#cccccc"
+  },
+  {
+    "color": "highlight",
+    "value": "#e3f2fd"
+  },
+  {
+    "color": "footer",
+    "value": "#007acc"
+  },
+  {
+    "color": "hover",
+    "value": "#ffa500"
+  },
+  {
+    "color": "button-text",
+    "value": "#ffffff"
+  },
+  {
+    "color": "link-default",
+    "value": "#007acc"
+  },
+  {
+    "color": "link-hover",
+    "value": "#ffa500"
+  }
+]
